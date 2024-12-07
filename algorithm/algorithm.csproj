@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project> 
+<!-- public static void Main(string[s] args)
+    {
+        string s = "Hello World";
+        List<int> vowelPositions = GetVowelPositions(s);
+
+        Console.WriteLine("Vowel positions: ");
+        foreach (int position in vowelPositions)
+        {
+            Console.WriteLine(position);
+        }
+    }
+public static List<int> GetVowelPositions(string s)
+    {
+        List<int> positions = new List<int>();
+        char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
+
+        for (int i = 0; i < s.Length; i++)
+        {
+            for (int j = 0; j < vowels.Length; j++)
+            {
+                if (s[i] == vowels[j])
+                {
+                    positions.Add(i);
+                    break;
+                }
+            }
+        }
+
+        return positions;
+    }
+}
+
+ -->
